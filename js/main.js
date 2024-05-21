@@ -10,7 +10,7 @@ const window_width = "500";
 
 canvas.height = window_height;
 canvas.width = window_width;
-canvas.style.backgroundColor = "#b7f7ed";
+canvas.style.backgroundColor = "rgb(" + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + ")";
 
 class Circle {
     constructor(x, y, radius, color, text, backcolor, speed) {
